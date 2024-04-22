@@ -1,2 +1,2 @@
-# A fully functional Python-based Blackjack game. 
-More work in progress...
+# A fully functional Blackjack game. 
+Improvements to the Dealer algorithms in the works..
