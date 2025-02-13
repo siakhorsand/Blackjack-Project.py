@@ -113,7 +113,7 @@ def display_outcome(player_points, player_hand, dealer_points, dealer_hand, bet,
         balance += bet
     elif player_points < dealer_points:
         print("YOU LOSE. (ᵟຶ︵ ᵟຶ)")
-        balance -= bet
+        balance += bet * 1.5
     else:
         print("YOU AND THE DEALER PUSHED.")
 

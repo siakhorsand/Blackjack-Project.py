@@ -52,7 +52,7 @@ def calculate(hand):
     ace_count = 0
 
     for card in hand:
-        if card[0] == "Ace":
+        if card[0] == "A":
             ace_count += 1
         points += card[2]
 
